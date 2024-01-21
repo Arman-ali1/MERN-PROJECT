@@ -6,8 +6,7 @@
     flex-shrink: 0;
     width:100vmax;
     height: 445px;
-    opacity: 0.6;
-    opacity: 0.6;
+    opacity: 1;
     background: linear-gradient(90deg, rgba(18, 83, 152, 0.60) 0%, #125398 10%, #125398 40%, #4F2696 80%, rgba(79, 38, 150, 0.60) 100%);
 }
 .home1{

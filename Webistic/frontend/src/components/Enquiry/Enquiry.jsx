@@ -16,30 +16,41 @@ function Enquiry() {
     }
 
   return (
-    <div className='enquiry'>
-      <div className='enquiryleft'>
-        <img className='enquiryleft' src='./enquiry.png' />
-      </div>
-      <div className='enquiryright'>
-        <h1>Submit your query</h1>
-        <p>Don't leave confused. Just seek a free
-            consultation.</p>
-        <form>
-            <input onChange={(e=>{
-                setName(e.target.value)
-            })} type="text" placeholder="Name" className='enquiryinput' />
-            <input onChange={(e=>{
-                setEmail(e.target.value)
-            })} type="text" placeholder="Email" className='enquiryinput' />
-            <input onChange={(e=>{
-                setPhone(e.target.value)
-            })} type="text" placeholder="Phone" className='enquiryinput' />
-            <input onChange={(e=>{
-                setMessage(e.target.value)
-            })} type="text" placeholder="Message" className='enquiryinput' />
-            <button className='enquiryinput' id='enquirybutton' onClick={enqbutton}>Submit</button>
-        </form>
-      </div>
+    <div className='enq'>
+        <div className='enquiry'>
+        <div className='enquiryleft'>
+            <img className='enquiryleft' src='./enquiry.png' />
+        </div>
+        <div className='enquiryright'>
+            <h1>Submit your query</h1>
+            <p>Don't leave confused. Just seek a free
+                consultation.</p>
+            <form>
+                <input onChange={(e=>{
+                    setName(e.target.value)
+                })} type="text" placeholder="Name" className='enquiryinput' />
+                <input onChange={(e=>{
+                    setEmail(e.target.value)
+                })} type="text" placeholder="Email" className='enquiryinput' />
+                <input onChange={(e=>{
+                    setPhone(e.target.value)
+                })} type="text" placeholder="Phone" className='enquiryinput' />
+                <input onChange={(e=>{
+                    setMessage(e.target.value)
+                })} type="text" placeholder="Message" className='enquiryinput' />
+                <button className='enquiryinput' id='enquirybutton' onClick={enqbutton}>Submit</button>
+            </form>
+        </div>
+        
+        </div>
+        <div id='contact'>
+            <h1>SMALL BUSINESS MARKETING PACKAGES</h1>
+            <p>Entrepreneurs understand how professional Web Development 
+            and Digital Marketing can help them stay ahead of the competition. 
+            Get the right package to skyrocket your conversion rates.
+            </p>
+            <button className='enquiryinput' id='enquirybutton'>CONTACT</button>
+        </div>
     </div>
   )
 }

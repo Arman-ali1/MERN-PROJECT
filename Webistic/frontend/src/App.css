@@ -1,6 +1,6 @@
 #root {
   width: 100vmax;
-  height: 100vmax;
+  height: fit-content;
   color: aliceblue;
   background-color: #010424;
   overflow-x: hidden;

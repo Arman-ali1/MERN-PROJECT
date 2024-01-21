@@ -1,4 +1,13 @@
 
+.enq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vmax;
+    height: 68vmax;
+}
+
 .enquiry{
     width: 82vmax;
     height: 42vmax;
@@ -6,8 +15,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-left: 100px;
+    /* margin-top: 20px;
+    margin-left: 100px; */
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(238, 10, 10, 0.749);
     /* background-color: blue; */
@@ -74,4 +83,26 @@
     background: #701ABC;
     color: rgba(255, 255, 255, 1);
     cursor: pointer;
+}
+#contact{
+    padding-top: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57.6px; /* 144% */
+    text-transform: uppercase;
+}
+#contact p{
+    padding-left: 80px;
+    padding-right: 80px;
+    color: #c2bdbd;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; /* 138.095% */
 }

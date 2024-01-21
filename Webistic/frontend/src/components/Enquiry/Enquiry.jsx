@@ -14,6 +14,9 @@ function Enquiry() {
         console.log(name,email,phone,message);
         alert('Your query has been submitted');
     }
+    function handleContact(){
+        alert('We contact you soon');
+    }
 
   return (
     <div className='enq'>
@@ -49,7 +52,7 @@ function Enquiry() {
             and Digital Marketing can help them stay ahead of the competition. 
             Get the right package to skyrocket your conversion rates.
             </p>
-            <button className='enquiryinput' id='enquirybutton'>CONTACT</button>
+            <button onClick={handleContact} className='enquiryinput' id='enquirybutton'>CONTACT</button>
         </div>
     </div>
   )

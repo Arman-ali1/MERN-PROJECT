@@ -6,7 +6,7 @@
     align-items: top;
     justify-content: center;  */
     width: 100vmax;
-    height:100px; 
+    height:85px; 
     /* top: -1; */
     /* flex-shrink: 0; */
     
@@ -23,12 +23,12 @@
   }
   .logo{
     width: 225px;
-    max-height: 102px;
+    max-height: 80px;
     /* flex-shrink: 0; */
   }
   .img1{
     width: 225px;
-    height: 102px;
+    height: 80px;
     background:cover no-repeat;
   }
   .webistic{
@@ -38,7 +38,7 @@
   .rightnav{
     display: flex;
     width: 114px;
-    height: 45px;
+    height: 30px;
     padding:10px;
     justify-content: center;
     align-items: center;

@@ -10,7 +10,7 @@ function Home() {
         for small businesses that always start with a FREE demo.</p>
       </div>
       <div className='img'>
-        <div>
+        <div className='arr'>
             <img src='./Picture1.png' className='img2'></img>
         </div>
       </div>

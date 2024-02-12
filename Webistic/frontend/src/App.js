@@ -13,6 +13,10 @@ import Heade from './Header/Heade.jsx';
 import  Home from './Home/Home.jsx';
 import Enquiry from './Enquiry/Enquiry.jsx';
 import A from './f1/A.jsx';
+import Form from './Form/Form.jsx';
+import Foot from './footer/Foot.jsx';
+
+
 
 
 function App() {
@@ -31,6 +35,8 @@ function App() {
       <Page5/>
       <Page6/>
       <A/>
+      <Form/>
+    <Foot/>
     </div>
   )
 }

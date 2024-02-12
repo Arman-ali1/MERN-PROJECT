@@ -6,6 +6,11 @@ import Image6 from './assets/Image6.png';
 
 
 function Page5() {
+
+  const handlesubmit=()=>{
+    alert("We will contact you soon!");
+  }
+
   return (
     <div className="Page5-container">
       {/* First Section */}
@@ -27,7 +32,7 @@ All we need are a few details including:
 Your business name
 <br/> A brief description of your company <br/> Core products and services
 </p>
-          <button className="action-button">Get Started Now</button>
+          <button onClick={handlesubmit} className="action-button">Get Started Now</button>
         </div>
       </div>
 
@@ -41,7 +46,7 @@ Your business name
           <br/>
 
 Unlike other website design firms, we <br/>actually let you preview your new website <br/> for free. This ensures you know exactly <br/> what you're getting and are 100% satisfied <br/> before you pay us a dime</p>
-          <button className="action-button">Get Started Now</button>
+          <button onClick={handlesubmit} className="action-button">Get Started Now</button>
         </div>
         <div className="right">
         <img src={Image5} alt="Image5" />
@@ -61,7 +66,7 @@ Unlike other website design firms, we <br/>actually let you preview your new web
           <br/>
 
 Our work doesn't stop there. We handle <br/>everything including ongoing monthly updates, <br/>hosting and site security to keep <br/>your site looking great, up-to-date and safe <br/>from hackers.</p>
-          <button className="action-button">Get Started Now</button>
+          <button onClick={handlesubmit} className="action-button">Get Started Now</button>
         </div>
       </div>
     </div>

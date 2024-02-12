@@ -10,6 +10,9 @@ function Header() {
     // const userData = location.state?.UserStatus || {};
     const[isActive,setIsActive]=useState(false)
 
+    const handleenquery=()=>{
+      alert('we will contact u soon')
+    }
 
   return (
     <div >
@@ -21,17 +24,17 @@ function Header() {
             <p className='webistic'>webistic</p>
           </div>
           <div className='nav' >
-              <a className='lists'> Home</a>
-              <a className='lists'> About</a>
-              <a className='lists'> Consulting</a>
-              <a className='lists'> Service</a>
-              <a className='lists'> Hire Experts</a>
-              <a className='lists'> Portfolio</a>
-              <a className='lists'> Contact Us</a>
-              <a className='lists'> FAQ</a>
+              <a href='/' className='lists'> Home</a>
+              <a href='/' className='lists'> About</a>
+              <a href='/' className='lists'> Consulting</a>
+              <a href='/' className='lists'> Service</a>
+              <a href='/' className='lists'> Hire Experts</a>
+              <a href='/' className='lists'> Portfolio</a>
+              <a href='/' className='lists'> Contact Us</a>
+              <a href='/' className='lists'> FAQ</a>
           </div>
           <div className='nav' >
-              <a className='rightnav'> Enquiry</a>
+              <a onClick={handleenquery} className='rightnav'> Enquiry</a>
           </div>
         </div>
       </div>

@@ -41,7 +41,9 @@ function Enquiry() {
                 <input onChange={(e=>{
                     setMessage(e.target.value)
                 })} type="text" placeholder="Message" className='enquiryinput' />
-                <button className='enquiryinput' id='enquirybutton' onClick={enqbutton}>Submit</button>
+                
+                <button id='enqbtn' onClick={enqbutton}>ENQUIRE NOW</button>
+                {/* <button className='enquiryinput' id='enquirybutton' onClick={enqbutton}>Submit</button> */}
             </form>
         </div>
         

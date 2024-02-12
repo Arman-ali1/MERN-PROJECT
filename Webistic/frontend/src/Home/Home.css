@@ -32,8 +32,8 @@
     width: 300px; 
     mix-blend-mode:color-burn;
     filter: brightness(100px); 
-    /* padding: 30px; */
-    /* margin-right: -100px; */
+    /* padding: -300px; */
+    margin-right: -100px;
 }
 .arr{
     padding-left: 200px;

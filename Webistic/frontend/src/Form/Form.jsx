@@ -67,6 +67,10 @@ function Form() {
             </div>
         </div>
         </div>
+        <div className='footertext'>
+            <h3 >© Copyright 2024. All Rights reserved by Trinity Infotech | Policy
+Developed by Shivam Batham , Arman Ali</h3>
+        </div>
     </div>
   )
 }

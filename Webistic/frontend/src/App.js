@@ -36,7 +36,7 @@ function App() {
       <Page6/>
       <A/>
       <Form/>
-    <Foot/>
+    {/* <Foot/> */}
     </div>
   )
 }

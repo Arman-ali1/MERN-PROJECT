@@ -21,7 +21,7 @@ function Header() {
           
           <div className='logo' >
             <img src="./1.png" alt="Description of the image" className='img1' />
-            <p className='webistic'>webistic</p>
+            <p className='webistic'>Prospera</p>
           </div>
           <div className='nav' >
               <a href='/' className='lists'> Home</a>
